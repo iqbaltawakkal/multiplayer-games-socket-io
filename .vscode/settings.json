@@ -1,0 +1,30 @@
+{
+	// =============== Use below setting for Vue.js Project with Vetur Extension ===============
+	// Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+	// Use tabs instead of spaces
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"stylelint.enable": true,
+	"css.validate": false,
+	"prettier.eslintIntegration": true,
+	"eslint.validate": [{
+			"language": "vue",
+			"autoFix": true
+		},
+		{
+			"language": "html",
+			"autoFix": true
+		},
+		{
+			"language": "javascript",
+			"autoFix": true
+		}
+	],
+	"eslint.autoFixOnSave": true,
+	"vetur.format.defaultFormatter.html": "none",
+	"vetur.format.defaultFormatter.css": "prettier",
+	"vetur.format.defaultFormatter.js": "prettier",
+	"window.zoomLevel": 0
+	// =============== Use this setting for Vue.js Project with Vetur Extension ===============
+}

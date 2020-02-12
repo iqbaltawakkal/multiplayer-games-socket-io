@@ -1,0 +1,21 @@
+/* this is global CSS */
+
+.form-control:focus {
+    border-color: #91949882;
+    box-shadow: 0 0 0 0.2rem rgba(228, 228, 228, 0.74);
+}
+
+.toggle-ready label {
+    width: 100% !important;
+}
+
+.table-wrapper-ready-multi th {
+    text-align: center;
+}
+
+#radio-group label.btn {
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin-bottom: 20px;
+    border-radius: 0.3rem;
+}

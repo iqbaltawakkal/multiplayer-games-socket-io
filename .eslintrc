@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": { "parser": "babel-eslint" },
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "plugins": ["vue"],
+  "rules": {
+    "linebreak-style": 0,
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "vue/require-default-prop": 0,
+    "vue/attribute-hyphenation": 0
+  }
+}
